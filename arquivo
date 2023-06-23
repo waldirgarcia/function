@@ -1,0 +1,16 @@
+//Essa função em JavaScript define duas funções: soma e Multiplica.
+// A função soma recebe dois números como parâmetros e retorna a soma deles. 
+//A função Multiplica também recebe dois números como parâmetros e retorna o produto deles.
+// No final, o código usa a função console.log para imprimir o resultado de Multiplica(soma (4, 5), soma(3,3)). 
+//Isso significa que ele vai calcular a soma de 4 e 5, que é 9, e a soma de 3 e 3, que é 6,
+// e depois multiplicar esses dois resultados, que é 54. Portanto, o código vai imprimir 54 no console.
+
+function soma (n1 , n2){
+    return n1 + n2;
+}
+function Multiplica(n1, n2){
+  return n1 * n2;
+
+}
+
+console.log (Multiplica(soma (4, 5), soma(3,3)))
